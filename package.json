@@ -1,6 +1,6 @@
 {
   "name": "@jafferson/simple-local-storage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "javascript module to serve as an alternative to async storage",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -19,11 +19,11 @@
   },
   "homepage": "https://github.com/jaffersonoliveira/simple-local-storage#readme",
   "dependencies": {
-    "@types/node": "^20.5.9",
-    "expo": "^49.0.9",
-    "typescript": "^5.2.2"
+    "expo-file-system": "^15.4.4"
   },
   "devDependencies": {
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "@types/node": "^20.5.9",
+    "typescript": "^5.2.2"
   }
 }
