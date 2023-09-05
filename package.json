@@ -1,0 +1,26 @@
+{
+  "name": "simple-local-storage",
+  "version": "1.0.0",
+  "description": "javascript module to serve as an alternative to async storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaffersonoliveira/simple-local-storage.git"
+  },
+  "author": "jafferson oliveira <jaffersonadm@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaffersonoliveira/simple-local-storage/issues"
+  },
+  "homepage": "https://github.com/jaffersonoliveira/simple-local-storage#readme",
+  "dependencies": {
+    "@types/node": "^20.5.9",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
