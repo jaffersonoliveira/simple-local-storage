@@ -17,24 +17,21 @@ yarn add @jafferson/simple-local-storage
 Here's a quick example of how to use Simple Local Storage in your JavaScript or TypeScript project:
 
 ```javascript
-import SimpleLocalStorage from '@jafferson/simple-local-storage';
-
-// Initialize the storage
-const storage = new SimpleLocalStorage();
+import Storage from '@jafferson/simple-local-storage';
 
 // Store data
-storage.setItem('myKey', 'myValue');
+Storage.setItem('myKey', 'myValue');
 
 // Retrieve data
-const myValue = storage.getItem('myKey');
+const myValue = Storage.getItem('myKey');
 console.log(myValue); // 'myValue'
 
 // Remove data
-storage.removeItem('myKey');
+Storage.removeItem('myKey');
 
 // get all keys
-const allKeys = storage.getAllKeys();
-allKeys.forEach(key => { storage.removeItem(key) }) //remove all keys
+const allKeys = Storage.getAllKeys();
+allKeys.forEach(key => { Storage.removeItem(key) }) //remove all keys
 ```
 
 ## API
@@ -75,7 +72,8 @@ This project relies on the [expo-file-system](https://www.npmjs.com/package/expo
 
 ## More Information
 
-For more information and detailed examples, visit the [GitHub repository](https://github.com/jaffersonoliveira/simple-local-storage).
+For more information and detailed examples, visit the [GitHub repository](https://github.com/jaffersonoliveira/simple-local-storage) or [NPM page](https://www.npmjs.com/package/@jafferson/simple-local-storage).
+
 
 ---
 
